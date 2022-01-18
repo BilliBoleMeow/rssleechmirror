@@ -402,7 +402,7 @@ def gdtot(url: str) -> str:
     By https://github.com/oxosec """
 
     if CRYPT is None:
-        raise DirectDownloadLinkException("ERROR: PHPSESSID and CRYPT variables not provided")
+        raise DirectDownloadLinkException("GDTOT Support Is Not Enabled.")
 
     headers = {'upgrade-insecure-requests': '1',
                'save-data': 'on',
