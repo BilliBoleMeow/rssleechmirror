@@ -1,4 +1,4 @@
-FROM anasty17/mltb:latest
+FROM darkghostx/mirleechx:902e9eb9b1eb273295fb2ccbdc5b0c1d63d7feeb
 # FROM anasty17/mltb-oracle:latest
 
 WORKDIR /usr/src/app
