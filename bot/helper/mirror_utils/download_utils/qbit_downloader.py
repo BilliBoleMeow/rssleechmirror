@@ -194,6 +194,8 @@ def _qb_listener(listener, client, gid, ext_hash, select, meta_time, path):
                     client.torrents_pause(torrent_hashes=ext_hash)
                 if select:
                     clean_unwanted(path)
+                if not select:
+                    clean_unwanted(path)
                 listener.onDownloadComplete()
                 if QB_SEED and not listener.isLeech and not listener.extract:
                     with download_dict_lock:
