@@ -197,20 +197,20 @@ input[type="submit"]:hover, input[type="submit"]:focus{
 </style>
 </head>
 <body>
-  <!--© Designed and coded by @bipuldey19-Telegram-->
+  <!--©-->
     <header>
       <div class="brand">
         <img
           src="https://telegra.ph/file/cc06d0c613491080cc174.png"
           alt="logo"
         />
-        <a href="https://t.me/anas_tayyar">
+        <a href="https://t.me/DestinyTorrentCloudUpdates">
           <h2 class="name">Qbittorrent Selection</h2>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.github.com/"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/DestinyTorrentCloudUpdates"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
@@ -573,20 +573,20 @@ section span{
     </style>
   </head>
 <body>
-   <!--© Designed and coded by @bipuldey19-Telegram-->
+   <!--©-->
     <header>
       <div class="brand">
         <img
           src="https://telegra.ph/file/cc06d0c613491080cc174.png"
           alt="logo"
         />
-        <a href="https://t.me/anas_tayyar">
+        <a href="https://t.me/DestinyTorrentCloudUpdates">
           <h2 class="name">Qbittorrent Selection</h2>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.github.com/"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/DestinyTorrentCloudUpdates"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
