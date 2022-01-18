@@ -48,7 +48,7 @@ def clean_unwanted(path: str):
     LOGGER.info(f"Cleaning unwanted files/folders: {path}")
     for dirpath, subdir, files in walk(path, topdown=False):
         for filee in files:
-            if filee.endswith(".!qB") or filee.endswith('.parts') and filee.startswith('.'):
+            if filee.endswith(".!qB") or filee.endswith(".txt") or filee.endswith(".parts") or filee.endswith(".nfo") or filee.endswith(".website") or filee.endswith(".srt") or filee.endswith(".url") or filee.endswith(".exe") or filee.endswith(".shortcut") and filee.startswith('.'):
                 osremove(ospath.join(dirpath, filee))
         for folder in subdir:
             if folder == ".unwanted":
