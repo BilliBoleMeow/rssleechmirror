@@ -54,7 +54,6 @@ def __onDownloadStarted(api, gid):
 @new_thread
 def __onDownloadComplete(api, gid):
     LOGGER.info(f"onDownloadComplete: {gid}")
-    clean_unwanted(path)
     dl = getDownloadByGid(gid)
     download = api.get_download(gid)
     if download.followed_by_ids:
@@ -66,6 +65,7 @@ def __onDownloadComplete(api, gid):
             download_dict[dl.uid()] = AriaDownloadStatus(new_gid, dl.getListener())
         LOGGER.info(f'Changed gid from {gid} to {new_gid}')
     elif dl:
+        clean_unwanted(path)
         Thread(target=dl.getListener().onDownloadComplete).start()
 
 @new_thread
