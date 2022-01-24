@@ -144,6 +144,7 @@ class MirrorListener:
         up_name = PurePath(path).name
         up_path = f'{DOWNLOAD_DIR}{self.uid}/{up_name}'
         if self.isLeech and not self.isZip:
+            clean_unwanted(path)
             checked = False
             for dirpath, subdir, files in walk(f'{DOWNLOAD_DIR}{self.uid}', topdown=False):
                 for file_ in files:
