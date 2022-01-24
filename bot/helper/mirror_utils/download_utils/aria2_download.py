@@ -54,6 +54,7 @@ def __onDownloadStarted(api, gid):
 @new_thread
 def __onDownloadComplete(api, gid):
     LOGGER.info(f"onDownloadComplete: {gid}")
+    clean_unwanted(path)
     dl = getDownloadByGid(gid)
     download = api.get_download(gid)
     if download.followed_by_ids:
