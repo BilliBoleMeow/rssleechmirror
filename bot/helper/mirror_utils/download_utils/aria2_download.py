@@ -65,7 +65,6 @@ def __onDownloadComplete(api, gid):
             download_dict[dl.uid()] = AriaDownloadStatus(new_gid, dl.getListener())
         LOGGER.info(f'Changed gid from {gid} to {new_gid}')
     elif dl:
-        clean_unwanted(path)
         Thread(target=dl.getListener().onDownloadComplete).start()
 
 @new_thread
